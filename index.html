@@ -30,28 +30,25 @@
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  <div class="container">
-      <div class="row justify-content-center mt-2">
-        <p id="cart1"></p>
-        <p id="cart2"></p>
-        <p id="cart3"></p>
-        </div>
-      </div>
+   <div class="container red"> 
+        <div id="first_product"></div>
+        
   </div>
 
-
-
+<!--the beggining of form -->
   <div class="container">
-    <div class="row justify-content-center mt-4">
+    <div class="row justify-content-center">
       <form class="form">
-        <input id="product" type="text" name="product" value=""> <br>
-        <input id="phrase" type="text" name="phrase" value=""><br> 
-        <input id="discription" type="text" name="discription" value=""><br>
+        <input id="product" type="text" name="product" value="title"> <br>
+        <input id="phrase" type="text" name="phrase" value="phrase"><br> 
+        <input id="discription" type="text" name="discription" value="discription"><br>
 
       </form>
+      <!--the end of form-->
 
     </div>
   </div>
+  <!--the button-->
   <div class="container">
       <div class="row justify-content-center mt-2">
           <button class="btn btn-primary mt-2" onclick="products()">Envoyer</button>
@@ -59,7 +56,6 @@
   </div>
 
   
-
   <!-- Add your site or application content here -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

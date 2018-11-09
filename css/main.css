@@ -109,10 +109,12 @@ form{
 button, input{
     width: 300px;
 }
-/* {
-    border: solid 2px rgb(143, 143, 161);
-    height: 150px;
-} */
+#first_product{
+    width: 150px;
+}
+p{
+    padding-left: 20px;
+}
 
 
 
